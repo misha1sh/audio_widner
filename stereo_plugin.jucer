@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jyJ6Ov" name="StereoPlugin" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" cppLanguageStandard="17"
+              compilerFlagSchemes="NewScheme" headerPath="D:\data\progr\audio_widener\stereo_plugin\ThirdParty\kfr\include">
+  <MAINGROUP id="yJl6KP" name="StereoPlugin">
+    <GROUP id="{15550D7A-8E8B-EC52-A6DC-784A6B0C7DAC}" name="Source">
+      <GROUP id="{B04C339E-F791-F3A4-E99F-6AD198301892}" name="Processing">
+        <FILE id="BHpDLV" name="DataAccumulator.cpp" compile="1" resource="0"
+              file="Source/Processing/DataAccumulator.cpp"/>
+        <FILE id="Ejlqzb" name="DataAccumulator.h" compile="0" resource="0"
+              file="Source/Processing/DataAccumulator.h"/>
+      </GROUP>
+      <GROUP id="{5CEA15BD-9627-B82A-EFEE-462C74C917CD}" name="Util"/>
+      <GROUP id="{045DDBE1-EE56-5B9F-4F3E-A2B0F9B466B1}" name="UI">
+        <GROUP id="{CC59BD83-479C-3ADA-9DCD-36DA37B11858}" name="DynamicTextureRenderer">
+          <FILE id="wvVRQP" name="Attributes.cpp" compile="1" resource="0" file="Source/UI/DynamicTextureRenderer/Attributes.cpp"/>
+          <FILE id="Uaw2Q1" name="Attributes.h" compile="0" resource="0" file="Source/UI/DynamicTextureRenderer/Attributes.h"/>
+          <FILE id="jDNJrn" name="DynamicTextureRenderer.cpp" compile="1" resource="0"
+                file="Source/UI/DynamicTextureRenderer/DynamicTextureRenderer.cpp"/>
+          <FILE id="MuDn5F" name="DynamicTextureRenderer.h" compile="0" resource="0"
+                file="Source/UI/DynamicTextureRenderer/DynamicTextureRenderer.h"/>
+          <FILE id="T1Py7W" name="SpectrumShaders.h" compile="0" resource="0"
+                file="Source/UI/DynamicTextureRenderer/SpectrumShaders.h"/>
+          <FILE id="wsQWez" name="Texture.cpp" compile="1" resource="0" file="Source/UI/DynamicTextureRenderer/Texture.cpp"/>
+          <FILE id="gBgYEP" name="Texture.h" compile="0" resource="0" file="Source/UI/DynamicTextureRenderer/Texture.h"/>
+          <FILE id="qesVIy" name="Uniforms.cpp" compile="1" resource="0" file="Source/UI/DynamicTextureRenderer/Uniforms.cpp"/>
+          <FILE id="ooIFX0" name="Uniforms.h" compile="0" resource="0" file="Source/UI/DynamicTextureRenderer/Uniforms.h"/>
+          <FILE id="J6JSaR" name="VertexBuffer.cpp" compile="1" resource="0"
+                file="Source/UI/DynamicTextureRenderer/VertexBuffer.cpp"/>
+          <FILE id="SQp3Ru" name="VertexBuffer.h" compile="0" resource="0" file="Source/UI/DynamicTextureRenderer/VertexBuffer.h"/>
+        </GROUP>
+        <FILE id="q0uCiE" name="SpectrumCanvas.cpp" compile="1" resource="0"
+              file="Source/UI/SpectrumCanvas.cpp"/>
+        <FILE id="MvYQVE" name="SpectrumCanvas.h" compile="0" resource="0"
+              file="Source/UI/SpectrumCanvas.h"/>
+      </GROUP>
+      <FILE id="IYMxmP" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="GKozC4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="u3lTZ3" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="dBiuxU" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+    <FILE id="kIzgon" name="TestComponent.cpp" compile="1" resource="0"
+          file="Source/TestComponent.cpp"/>
+    <FILE id="gzOcRv" name="TestComponent.h" compile="0" resource="0" file="Source/TestComponent.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="stereo_plugin"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="stereo_plugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../program_files/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../program_files/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS buildEnabled="0" systemHeaderPath="C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;"
+             continuousRebuildEnabled="0"/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
