@@ -4,6 +4,6 @@ VST3-plugin which creates stereo sound from mono
 
 Examples:
 
-<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=0oWWVbYHD3w?autoplay=1" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](https://i.imgur.com/qa9NfmH.png)](http://www.youtube.com/watch?v=0oWWVbYHD3w "Video 1")
 
-<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TNFFVBlKTZk?autoplay=1" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](https://i.imgur.com/r4rR4jh.png)](http://www.youtube.com/watch?v=TNFFVBlKTZk "Video 2")
